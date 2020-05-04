@@ -41,7 +41,10 @@ BIOS設置
 
 參考網頁
 https://www.chenweikang.top/?p=613
-https://github.com/cocobear/DeskMini310_EFI  我的Github
+https://github.com/cocobear/DeskMini310_EFI
+
+
+我的Github
 https://github.com/NedLin9527/AsRockDeskmini310_OpenCore0.5.7
 
 待辦事項
