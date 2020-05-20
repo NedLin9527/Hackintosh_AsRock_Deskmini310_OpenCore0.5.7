@@ -18,44 +18,44 @@ CineBench的跑分大約在660，效能表現不佳，
 *因爲相關操作有可能影響原生系統，非常建議如果只是感興趣的，就直接買一台MacBook Air來使用吧！
 
 設備配置：
-|----------------|-------------------------------|
-|Case|`ASRock Deskmini 310 準系統` |
-|CPU          |`i5-9400 6cores 6Treads`|
-|iGPU          |`UHD 630`|
-|RAM          |`Micron DDR4 2666 SO-DIMM 8Gx2`|
-|Storage          |`WD SN550 1TB`|
-|網卡          |`Broadcom 1820A （需屏蔽5個腳位）`|
-|OS          |`macOS Catalina 10.15.4 正式版`|
-|EFI          |`OpenCore 0.5.7`|
+|----------------|-------------------------------|  
+|Case|`ASRock Deskmini 310 準系統` |  
+|CPU          |`i5-9400 6cores 6Treads`|  
+|iGPU          |`UHD 630`|  
+|RAM          |`Micron DDR4 2666 SO-DIMM 8Gx2`|  
+|Storage          |`WD SN550 1TB`|  
+|網卡          |`Broadcom 1820A （需屏蔽5個腳位）`|  
+|OS          |`macOS Catalina 10.15.4 正式版`|  
+|EFI          |`OpenCore 0.5.7`|  
 
 
-BIOS設置
-＊Load UEFI Defaults
-＊Advanced
-        CPU Configuration, CPU C States Support: Enabled,CFG LOCK: Disabled
-        Onboard HD Audio: Enabled
-        USB Configuration, XHCI Hand-off: Enabled
-        Super IO Configuration, Serial Port: Disabled
-＊Security Secure Boot: Disabled
-＊CSM :Disabled
+BIOS設置  
+＊Load UEFI Defaults  
+＊Advanced  
+        CPU Configuration, CPU C States Support: Enabled,CFG LOCK: Disabled  
+        Onboard HD Audio: Enabled  
+        USB Configuration, XHCI Hand-off: Enabled  
+        Super IO Configuration, Serial Port: Disabled  
+＊Security Secure Boot: Disabled  
+＊CSM :Disabled  
+  
+  
+製作過程：  
+1.下載黑果小兵 10.15.4 鏡像檔  
+2.使用Ether將鏡像寫入隨身碟  
+3.置換EFI 將隨身碟上EFI清空，並將OC 0.5.7引導放入  
+4.設定BIOS並使用隨身碟開機，安裝系統  
+5.完成安裝後檢查驅動程式是否正常，沒問題後使用hackintool將隨身碟EFI引導覆蓋至硬碟  
 
-
-製作過程：
-1.下載黑果小兵 10.15.4 鏡像檔
-2.使用Ether將鏡像寫入隨身碟
-3.置換EFI 將隨身碟上EFI清空，並將OC 0.5.7引導放入
-4.設定BIOS並使用隨身碟開機，安裝系統
-5.完成安裝後檢查驅動程式是否正常，沒問題後使用hackintool將隨身碟EFI引導覆蓋至硬碟
-
-過程發生問題就是透過Xcode 編輯config.plist 一開始沒注意都把要增加的資訊加在key的位置，導致一直無法用隨身碟引導，後來使用OpenCore Configurator 查看才發現，編輯config.plist 的方式不正確。
-
-參考網頁
-https://www.chenweikang.top/?p=613
-https://github.com/cocobear/DeskMini310_EFI
-
-
+過程發生問題就是透過Xcode 編輯config.plist 一開始沒注意都把要增加的資訊加在key的位置，導致一直無法用隨身碟引導，後來使用OpenCore Configurator 查看才發現，編輯config.plist 的方式不正確。  
+  
+參考網頁  
+https://www.chenweikang.top/?p=613  
+https://github.com/cocobear/DeskMini310_EFI  
+  
+  
 我的Github
-https://github.com/NedLin9527/AsRockDeskmini310_OpenCore0.5.7
-
-待辦事項
-＊研究單碟雙引導的方式
+https://github.com/NedLin9527/AsRockDeskmini310_OpenCore0.5.7  
+  
+待辦事項  
+＊研究單碟雙引導的方式  
