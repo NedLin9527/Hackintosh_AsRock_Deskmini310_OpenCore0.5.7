@@ -25,7 +25,7 @@ CineBench的跑分大約在660，效能表現不佳，
 |iGPU            |`UHD 630`                      |  
 |RAM             |`Micron DDR4 2666 SO-DIMM 8Gx2`|  
 |Storage         |`WD SN550 1TB`                 |  
-|Wan             |`Broadcom 1820A`               |  
+|NIC             |`Broadcom 1820A`               |  
 |OS              |`macOS Catalina 10.15.4`       |  
 |EFI             |`OpenCore 0.5.7`               |  
 
