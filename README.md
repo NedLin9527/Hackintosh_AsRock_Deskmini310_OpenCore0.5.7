@@ -17,16 +17,16 @@ CineBench的跑分大約在660，效能表現不佳，
 
 *因爲相關操作有可能影響原生系統，非常建議如果只是感興趣的，就直接買一台MacBook Air來使用吧！
 
-設備配置：
+設備配置：  
 |----------------|-------------------------------|  
-|Case|`ASRock Deskmini 310 準系統` |  
-|CPU          |`i5-9400 6cores 6Treads`|  
-|iGPU          |`UHD 630`|  
-|RAM          |`Micron DDR4 2666 SO-DIMM 8Gx2`|  
-|Storage          |`WD SN550 1TB`|  
-|網卡          |`Broadcom 1820A （需屏蔽5個腳位）`|  
-|OS          |`macOS Catalina 10.15.4 正式版`|  
-|EFI          |`OpenCore 0.5.7`|  
+|Case            |`ASRock Deskmini 310 Barebones`|  
+|CPU             |`i5-9400 6cores 6Treads`       |  
+|iGPU            |`UHD 630`                      |  
+|RAM             |`Micron DDR4 2666 SO-DIMM 8Gx2`|  
+|Storage         |`WD SN550 1TB`                 |  
+|Wan             |`Broadcom 1820A`               |  
+|OS              |`macOS Catalina 10.15.4`       |  
+|EFI             |`OpenCore 0.5.7`               |  
 
 
 BIOS設置  
