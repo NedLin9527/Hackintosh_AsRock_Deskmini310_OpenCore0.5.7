@@ -55,7 +55,7 @@ https://github.com/cocobear/DeskMini310_EFI
   
   
 我的Github
-https://github.com/NedLin9527/AsRockDeskmini310_OpenCore0.5.7  
+https://github.com/NedLin9527  
   
 待辦事項  
 ＊研究單碟雙引導的方式  
