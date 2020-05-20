@@ -18,6 +18,10 @@ CineBench的跑分大約在660，效能表現不佳，
 *因爲相關操作有可能影響原生系統，非常建議如果只是感興趣的，就直接買一台MacBook Air來使用吧！
 
 設備配置：  
+|     name     | age |             blog                |  
+| ------------ | --- | ------------------------------- |  
+| _LearnShare_ |  12 | [LearnShare](http://xianbai.me) |  
+| __Mike__     |  32 | [Mike](http://mike.me)          |  
 |----------------|-------------------------------|  
 |Case            |`ASRock Deskmini 310 Barebones`|  
 |CPU             |`i5-9400 6cores 6Treads`       |  
