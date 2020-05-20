@@ -1,11 +1,20 @@
-# AsRockDeskmini310_OpenCore0.5.7
+# Hackintosh_AsRock_Deskmini310_OpenCore0.5.7
 All contents in this website is for academic use only
 
 
-前言：
-Hackintosh 俗稱黑蘋果，近幾年Apple在消費者PC、NB市場上高貴的表現，加上iPhone、iPad等產品整合性強，漸漸地開始有使用者希望能有更好效能表現的PC來使用macOS，也就開使開發EFI引導macOS的技術，以達到在一般消費者電腦上實現使用macOS。
-目前主流為Clover引導俗稱四葉草，再來就是我這次使用的OpenCore引導，編程文件比較完善的還是以四葉草為主，但目前很多主流社群都開始轉往OC引導。
-而我正在服役的MacBook Pro 13” 2014mid為使用的CPU為i5-4278U，只有2核4線程，CineBench的跑分大約在660，效能表現不佳，基於在家日常使用且可以外接螢幕，就萌生自行安裝黑蘋果的計畫，畢竟Mac那尊絕不凡的售價，讓還在負擔房貸的我吃不消啊！Mac mini i3 4核心 8G RAM 256G SSD就要26K，所以打算在20K內弄出一台i5 6核心且記憶體跟硬碟都有大空間的個人電腦。
+## 前言：
+Hackintosh 俗稱黑蘋果，近幾年Apple在消費者PC、NB市場上高貴的表現，
+加上iPhone、iPad等產品整合性強，漸漸地開始有使用者希望能有更好效能表現的PC來使用macOS，
+也就開使開發EFI引導macOS的技術，以達到在一般消費者電腦上實現使用macOS。
+
+目前主流為Clover引導俗稱四葉草，再來就是我這次使用的OpenCore引導，
+編程文件比較完善的還是以四葉草為主，但目前很多主流社群都開始轉往OC引導。
+
+而我正在服役的**MacBook Pro 13” 2014mid**為使用的CPU為**i5-4278U 2Cores4Treads**，
+CineBench的跑分大約在660，效能表現不佳，
+基於在家日常使用且可以外接螢幕，就萌生自行安裝黑蘋果的計畫，畢竟Mac那尊絕不凡的售價，
+讓還在負擔房貸的我吃不消啊！Cores且記憶體跟硬碟都有大空間的個人電腦。
+
 *因爲相關操作有可能影響原生系統，非常建議如果只是感興趣的，就直接買一台MacBook Air來使用吧！
 
 設備配置：
